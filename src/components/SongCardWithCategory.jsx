@@ -22,9 +22,7 @@ export default SongCardWithCategory
 
 const styles = StyleSheet.create({
     container:{
-        borderWidth:2,
-        borderColor:"blue",
-       
+       flex:1
     },
     headingText:{
         fontSize:fontSizes.lg,
