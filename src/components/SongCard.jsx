@@ -38,6 +38,6 @@ const styles = StyleSheet.create({
     },artist:{
         color:colors.textSecondary,
         textAlign:"center",
-        fontSize:fontSizes.sm
+        fontSize:fontSizes.md
     }
 })

@@ -12,10 +12,11 @@ export const PreviousButton = ({ size = iconSizes.md }) => {
     )
 }
 export const PlayPauseButton = ({ size = iconSizes.md }) => {
+    let isPlaying= true;
     return (
         <>
             <TouchableOpacity activeOpacity={0.85}>
-                <FontAwesome name={"pause"} size={size} color={colors.iconPrimary} />
+                <FontAwesome name={isPlaying?"pause":"play"} size={size} color={colors.iconPrimary} />
             </TouchableOpacity>
         </>
     )
